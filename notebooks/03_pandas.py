@@ -17,12 +17,10 @@ data_with_missing = {
     "Height": [180, np.nan, 190, 168]
 }
 
-df_missing = pd.DataFrame(data_with_missing)
+# df_missing = pd.DataFrame(data_with_missing)
+#
+# print(df_missing["Age"].fillna(df_missing["Age"].mean()))
 
-print(df_missing["Age"].fillna(df_missing["Age"].mean()))
-
-
-
-
-
+df = pd.read_csv('people.csv')
+print(df.info())
 
