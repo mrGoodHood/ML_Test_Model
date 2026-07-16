@@ -36,5 +36,11 @@ model.fit(x_train, y_train)
 
 predictions = model.predict(x_test)
 
-print("Предсказания:", predictions)
-print("Правильные ответы:", y_test.values)
+# print("Предсказания:", predictions)
+# print("Правильные ответы:", y_test.values)
+
+mae = mean_absolute_error(y_test, predictions)
+mse = mean_squared_error(y_test, predictions)
+
+print("MAE:", mae)
+print("MSE:", mse)
