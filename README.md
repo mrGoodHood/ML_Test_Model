@@ -28,7 +28,8 @@ The project demonstrates the complete workflow:
 
 ## Dataset
 
-The project uses a small CSV dataset containing information about people's age and height.
+The project uses a small CSV dataset containing information 
+about people's age and height.
 
 Features:
 
@@ -37,3 +38,19 @@ Features:
 Target:
 
 - Height (target variable)
+
+
+## Results
+
+The Linear Regression model was successfully trained and evaluated
+on the dataset.
+
+The project demonstrates the complete machine learning workflow,
+including data preprocessing, model training, prediction, 
+and performance evaluation using regression metrics.
+
+## How to Run
+
+1. Clone the repository.
+2. Install the required libraries.
+3. Run the Python scripts from the project directory.
