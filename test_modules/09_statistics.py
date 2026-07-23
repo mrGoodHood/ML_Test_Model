@@ -14,9 +14,9 @@ squared_deviations = deviations ** 2
 manual_variance = np.mean(squared_deviations)
 
 
-print("Среднее значение:", mean_score)
-print("Медиана:", median_score)
-print("Размах:", score_range)
+# print("Среднее значение:", mean_score)
+# print("Медиана:", median_score)
+# print("Размах:", score_range)
 print("Дисперсия:", variance)
 print("Стандартное отклонение:", std_deviation)
 
